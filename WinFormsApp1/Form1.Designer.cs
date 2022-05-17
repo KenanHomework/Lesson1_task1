@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+namespace WinFormsApp1
 {
     partial class Form1
     {
@@ -37,9 +37,9 @@
             // 
             this.btn_change.Location = new System.Drawing.Point(317, 12);
             this.btn_change.Name = "btn_change";
-            this.btn_change.Size = new System.Drawing.Size(108, 44);
+            this.btn_change.Size = new System.Drawing.Size(122, 44);
             this.btn_change.TabIndex = 0;
-            this.btn_change.Text = "Change";
+            this.btn_change.Text = "Change To London";
             this.btn_change.UseVisualStyleBackColor = true;
             this.btn_change.Click += new System.EventHandler(this.btn_change_Click);
             // 
