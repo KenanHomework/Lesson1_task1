@@ -19,14 +19,17 @@ namespace WinFormsApp1
         {
             if (timeChanger)
             {
+                btn_change.Text = "Change To London";
                 pbx_loc.Image = Resources.baku;
                 timeChanger = false;
             }
             else
             {
+                btn_change.Text = "Change To Baku";
                 pbx_loc.Image = Resources.london;
                 timeChanger = true;
             }
+
 
 
 
